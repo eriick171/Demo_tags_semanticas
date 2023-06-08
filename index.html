@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Tags Semanticas</title>
+</head>
+<body>
+    <!--<p>Esse e um <b>texto</b> de teste</p>  Nao semantico-->
+    <!--<p>Esse e um <strong>texto</strong> de teste</p>   semantico-->
+
+    <!--<p>Esse e um <i>texto</i> de teste</p>  Nao semantico-->
+    <!--<p>Esse e um <em>texto</em> de teste</p>   semantico-->
+
+<header style="border: 2px solid green"> <!--cabeçalho ou de uma sessao especifica do conteudo-->
+
+    <!-- copiar a src- da imagem e so clicar com o click direito na logo ou imagem e clicar em "copiar endereço da imagem" pra usar na src da imagem-->
+   <figure> <!--tag semantica, utilizada para adicionar uma imagem e uma discriçao-->
+      <img src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="logo da kenzie">
+      <figcaption>Logo da kenzie </figcaption>
+   </figure>
+
+  <!-- <img src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="logo da kenzie">
+   <p>Logo da kenzie</p> aqui e uma forma nao semantica de realizar a tags de cima -->
+
+   <nav> <!-- tag que define um conjunto de links de navegaçao -->
+      <a href="https://kenzie.com.br/quem-somos" target="_blank">Quem somos</a>
+      <a href="https://kenzie.com.br/curriculo" target="_blank">Formaçao</a>
+   </nav>
+    <!--ALT + Z = quebra de linha automatica-->
+
+    <button>Quero ser programador</button>
+</header>
+<main style="border: 2px solid yellow"> <!-- conteudo principal de uma pagina usado todo conteudo como texto , imagem , videos e outros elemento interativo-->
+    <section style="border: 2px solid green;"><!-- e usada para indetificar sessao especifica de uma pagina ex: noticias , produtos , depoimentos de cliente. cada sessao deve possuir um titulo nao e obrigatorio possuir um titulo mais , e bom ter um titulo descritivo e significativo-->
+        <h2>Aprenda do zero com nossa formaçao em programaçao </h2>
+        <p>Você não precisa ter conhecimento prévio, conta com oportunidades de pagamento acessíveis e pode assistir as aulas ao vivo ou gravadas, no horário que preferir.</p>
+        <button>Quero ser programador</button>
+      </section>
+      <section style="border: 2px solid red;">
+        <h2>Nossa metodologia</h2>
+        <p>Entenda como oferecemos um ensino de excelência para formar profissionais completos em 10 meses.</p>
+        <article> <!--e usada para indentificar um bloco de conteudo que e indepedente do restante da pagina ex: em um blog cada postagem seria involvida pela tag article para indica que e uma postagem independente e completa-->
+            <h3>Aprenda na pratica</h3>
+            <p>Com um ensino baseado em projetos, os alunos Kenzie evoluem com base nas demandas do mercado. Ao colocar a mão na massa, o aprendizado torna-se muito mais rápido.</p>
+        </article>
+        <article>
+            <h3>Suporte em tempo real</h3>
+            <p>Um dos diferenciais da Kenzie é que vamos bem além das aulas gravadas. O contato ágil entre alunos, instrutores e equipe é parte da metodologia. Assim, as dúvidas são sempre respondidas no menor tempo possível.</p>
+        </article>
+        <article>
+            <h3>Conteúdo atualizado</h3>
+            <p>Aprenda tudo que mais interessa para entrar no mercado. Nosso currículo é atualizado e baseado no que as empresas realmente precisam. Em 10 meses você se torna um profissional completo.</p>
+        </article>
+        <article>
+            <h3>Mercado de trabalho</h3>
+            <p>Temos parcerias com mais de 500 empresas, que já contratam alunos e alunas da Kenzie. Ou seja, a entrada no mercado de trabalho é muito mais rápida para quem estuda com a gente.</p>
+        </article>
+      </section>
+</main> 
+<footer style="background: rgb(22, 22, 22)"> <!-- roda pe - fale conosco , chat , contato e outras informacoes importante da pagina-->
+    <img src="https://kenzie.com.br/blog/wp-content/themes/kenzie/src/assets/img/footer-logo.png">
+
+     <h3>Kenzie na rede</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/kenzieacademybr/?utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">Facebook</a></li>
+
+        <li><a href="https://www.instagram.com/kenzieacademybr/?utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">Instagram</a></li>
+
+        <li><a href="https://www.youtube.com/channel/UC6rcCbDzhVoIm1V7WnwPDIQ?sub_confirmation=1&utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">Youtube</a></li>
+
+        <li><a href="https://www.linkedin.com/school/kenzie-academy-brasil/?utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">Linkedin</a></li>
+
+        <li><a href="https://www.tiktok.com/@kenzieacademy_br?utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">tiktok</a></li>
+
+        <li><a href="https://twitter.com/kenzieacademybr?utm_campaign=home&utm_medium=organico&utm_source=site" target="_blank">Twiter</a></li>
+    </ul>
+
+     <h3>CONTATO</h3>
+     <ul>
+       <li>R. General Mario Tourinho, 1733 - 706 - Seminário, Curitiba/PR</li>
+       <li>Avenida Efigênio Salles, 1299 - Aleixo, Manaus/AM</li>
+       <li>CNPJ 35.224.825/0001-74</li>
+       <li>contato@kenzie.com.br</li>
+       <li>TRABALHE CONOSCO</li>
+    </ul>
+     
+</footer> 
+    
+</body>
+</html>
+
+
+<!-- CRTL + ; -> Adiciona um comentario -->
